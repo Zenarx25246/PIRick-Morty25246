@@ -1,0 +1,24 @@
+.div{
+    
+    
+    z-index: 9999;
+    top: 0;
+    width: 100%;
+    height: 8vh;
+    background-color: rgba(183, 143, 13, 0.5);
+    
+}
+
+
+ .button {
+
+    padding: .5vh 1vh;
+    background-color: #cc05e2eb;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  
+    margin: 0 1em 0 1em;
+
+  }
+ 

@@ -1,0 +1,52 @@
+.card{
+    
+   
+    margin:  2em;
+    border-radius: 12px;
+    overflow: hidden;
+    background-image:url(https://img.pikbest.com/backgrounds/20181212/pure-original-black-matte-texture-background_2797904.jpg!w700wp) ;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.24) ;
+    cursor: default;
+    transition: all 400ms ease;
+    width: 18.5em;
+    height: 38rem;
+    zoom: 1;
+    position: relative;
+    justify-content: center;
+
+}
+
+.card:hover{
+
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-7%)
+    
+
+}
+
+.card img{
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+
+}
+
+.h2{
+    color: rgb(19, 195, 207);
+    
+}
+
+.image{
+    background-attachment: fixed;
+}
+
+@media (max-width: 1200px ){
+    .card {
+        flex-direction: column ;
+        
+       
+
+    }
+
+
+}
